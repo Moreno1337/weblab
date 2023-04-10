@@ -55,7 +55,7 @@ body {
 
 .menu-lateral-logo {
     align-self: center;
-    width: 118px;
+    width: 70px;
     margin-bottom: 30px;
 }
 .menu-lateral-link {
@@ -81,7 +81,7 @@ body {
     color: #04D282;
 }
 
-.destaque, .profissionalize {
+.destaque, .profissionalize, .vantagens {
     background-color: #011e36;
     padding: 64px 20px 0 20px;
 }
@@ -91,7 +91,7 @@ body {
     color: #ffffff;
     font-weight: 700;
     line-height: 43px;
-    width: 270px;
+    width: 290px;
 }
 
 .destaque-subtitulo {
@@ -164,3 +164,42 @@ body {
     margin-top: 24px;
 }
 
+/* SECTION VANTAGENS */
+
+.vantagens-container {
+    margin-top: 64px;
+    padding-bottom: 64px;
+}
+
+.vantagens-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.vantagens-item:first-child {
+    margin-top: 0;
+}
+
+.vantagens-item-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vantagens-titulo {
+    color: #04D282;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 20px 0;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.vantagens-subtitulo {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 20px;
+}
