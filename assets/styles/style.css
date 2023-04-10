@@ -206,7 +206,7 @@ body {
 
 /* SECTION O QUE FAZEMOS */
 
-.o-que-fazemos {
+.o-que-fazemos, .como-ajudar {
     background-color: #FFFFFF;
     padding: 64px 20px 0 20px;
 }
@@ -264,4 +264,51 @@ body {
     width: 100px;
     background-color: #8a8a8a;
     margin-top: 69px;
+}
+
+/* SECTION COMO AJUDAR */
+
+.como-ajudar-descricao {
+    color: #000;
+    width: 290px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 32px 0;
+}
+
+.como-ajudar-botao {
+    background: transparent;
+    color: #04D282;
+    border: 1px solid #8a8a8a;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.como-ajudar-botao::after {
+    content: '';
+    background-image: url(../img/flecha-verde.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.foguete-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.como-ajudar-foguete {
+    width: 180px;
 }
