@@ -2,8 +2,6 @@ body {
     font-family: 'Oswald', sans-serif;
     font-family: 'Tilt Warp', cursive;
     font-family: 'Titillium Web', sans-serif;
-    overflow-x: hidden;
-    width: 100vw;
 }
 
 .cabecalho {
@@ -29,8 +27,15 @@ body {
     height: 64px;
 }
 
-.menu-lateral {
+.menu-lateral-display-none {
+    display: none;
+}
+
+.menu-lateral-display-flex {
     display: flex;
+}
+
+.menu-lateral {
     flex-direction: column;
     background-color: #011e36;
     width: 75vw;
