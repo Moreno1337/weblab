@@ -33,21 +33,22 @@ body {
     background-color: #011e36;
     width: 75vw;
     height: 100vh;
+    padding-top: 30px;
 
     position: absolute;
-    left: -100vw;
+    top: 64px;
+    right: -100vw;
     transition: .25s;
 }
 
-.menu-lateral-ativo {
-    left: 0;
-    transition: .25s;
+#menu-lateral-ativo {
+    right: 0;
+    top: 64px;
 }
 
 .menu-lateral-logo {
     align-self: center;
     width: 118px;
-    padding: 16px;
     margin-bottom: 30px;
 }
 .menu-lateral-link {
