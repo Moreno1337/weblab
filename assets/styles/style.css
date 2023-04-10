@@ -206,7 +206,7 @@ body {
 
 /* SECTION O QUE FAZEMOS */
 
-.o-que-fazemos, .como-ajudar {
+.o-que-fazemos, .como-ajudar, .frase {
     background-color: #FFFFFF;
     padding: 64px 20px 0 20px;
 }
@@ -302,13 +302,80 @@ body {
     margin-left: 15px;
 }
 
-.foguete-box {
+.foguete-box, .mundo-box {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 48px;
 }
 
-.como-ajudar-foguete {
+.como-ajudar-foguete, .frase-mundo {
     width: 180px;
+}
+
+/* SECTION FRASE */
+
+.frase-autor {
+    color: #04D282;
+    font-size: 16px;
+    text-align: end;
+    width: 290px;
+}
+
+.mundo-box {
+    margin-bottom: 64px;
+}
+
+/* RODAPE */
+
+.rodape {
+    background-color: #04D282;
+    padding: 64px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape-container {
+    width: 85vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 48px;
+    border-bottom: 2px solid #000;
+}
+
+.rodape-titulo {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+}
+
+.rodape-subtitulo {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.rodape-botao {
+    background: transparent;
+    color: #000;
+    border: 3px solid #000;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 0 auto;
+
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.rodape-logo {
+    width: 150px;
+    margin-top: 48px;
 }
