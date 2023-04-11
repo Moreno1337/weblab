@@ -41,6 +41,7 @@
     padding-top: 30px;
 
     position: absolute;
+    z-index: 20;
     top: 64px;
     right: -100vw;
     transition: .25s;
