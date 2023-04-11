@@ -1,0 +1,113 @@
+.realce {
+    color: #04D282;
+}
+
+.destaque-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.destaque, .profissionalize, .vantagens {
+    background-color: #011e36;
+    padding: 64px 20px 0 20px;
+}
+
+.titulo-principal {
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 43px;
+    width: 290px;
+}
+
+.destaque-subtitulo {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 21px;
+    width: 270px;
+    margin-top: 24px;
+}
+
+.destaque-botao {
+    background: transparent;
+    color: #04D282;
+    border: 3px solid #04D282;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.destaque-botao::after {
+    content: '';
+    background-image: url(../img/flecha-verde.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.linha-divisoria {
+    display: block;
+    height: 5px;
+    width: 100px;
+    background-color: #ffffff;
+    margin-top: 69px;
+}
+
+.pc-celular img {
+    display: none;
+    width: 200px;
+    
+}
+
+@media screen and (min-width: 720px) {
+
+    .titulo-principal {
+        width: 400px;
+    }
+    
+    .pc-celular img{
+        padding-top: 40px;
+        display: block;
+    }
+    
+    .destaque-subtitulo {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .titulo-principal {
+        width: 460px;
+        font-size: 34px;
+    }
+
+    .destaque-subtitulo {
+        font-size: 20px;
+        width: 600px;
+        line-height: 30px;
+    }
+    .pc-celular img{
+        width: 280px;
+    }
+
+    .linha-divisoria {
+        margin-top: 150px;
+        width: 150px;
+    }
+
+    .destaque-botao {
+        margin-top: 70px;
+    }
+
+}

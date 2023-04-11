@@ -1,0 +1,74 @@
+.cabecalho {
+    background-color: #011e36;
+    display: flex;
+    justify-content: center;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+}
+
+.cabecalho-menu {
+    background-color: #011e36;
+    border: none;
+}
+
+.logo-header {
+    width: 129px;
+    height: 64px;
+}
+
+.menu-lateral-display-none {
+    display: none;
+}
+
+.menu-lateral-display-flex {
+    display: flex;
+}
+
+.menu-lateral {
+    flex-direction: column;
+    background-color: #011e36;
+    width: 75vw;
+    height: 100vh;
+    padding-top: 30px;
+
+    position: absolute;
+    top: 64px;
+    right: -100vw;
+    transition: .25s;
+}
+
+#menu-lateral-ativo {
+    right: 0;
+    top: 64px;
+}
+
+.menu-lateral-logo {
+    align-self: center;
+    width: 70px;
+    margin-bottom: 30px;
+}
+.menu-lateral-link {
+    margin-bottom: 64px;
+    color: #02467e;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+.contato-header {
+    width: fit-content;
+    background-color: #04D282;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+@media screen and (min-width: 1024px) {
+
+}

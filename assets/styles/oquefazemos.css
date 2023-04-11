@@ -1,0 +1,74 @@
+.o-que-fazemos, .como-ajudar, .frase {
+    background-color: #FFFFFF;
+    padding: 64px 20px 0 20px;
+}
+
+.titulo-principal-preto {
+    font-size: 28px;
+    color: #000;
+    font-weight: 700;
+    line-height: 43px;
+    width: 290px;
+}
+
+.o-que-fazemos-subtitulo {
+    color: #04D282;
+    font-weight: 700;
+    width: 290px;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 10px;
+}
+
+.o-que-fazemos-container {
+    margin-top: 64px;
+}
+
+.o-que-fazemos-item {
+    margin-top: 40px;
+}
+
+.o-que-fazemos-item:first-child {
+    margin-top: 0;
+}
+
+.o-que-fazemos-icone {
+    width: 70px;
+}
+
+.o-que-fazemos-titulo {
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.o-que-fazemos-descricao {
+    color: #8a8a8a;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 10px;
+}
+
+.linha-divisoria-cinza {
+    display: block;
+    height: 5px;
+    width: 100px;
+    background-color: #8a8a8a;
+    margin-top: 69px;
+}
+
+@media screen and (min-width: 720px) {
+    .titulo-principal-preto, 
+    .o-que-fazemos-subtitulo {
+        padding-left: 30px;
+    }
+    .o-que-fazemos-container {
+        padding-left: 30px;
+    }
+
+    .linha-divisoria-cinza {
+        margin-left: 30px;
+    }
+}
+    
