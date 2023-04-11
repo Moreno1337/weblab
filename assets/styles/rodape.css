@@ -43,9 +43,33 @@
     font-family: 'Titillium Web', sans-serif;
     font-weight: 700;
     font-size: 18px;
+    transition: 250ms;
+}
+
+.rodape-botao:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+
+.rodape-botao:active {
+    transform: scale(0.95);
 }
 
 .rodape-logo {
     width: 150px;
     margin-top: 48px;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape-container {
+        width: 900px;
+    }
+
+    .rodape-titulo {
+        font-size: 32px;
+    }
+
+    .rodape-botao {
+        font-size: 20px;
+    }
 }

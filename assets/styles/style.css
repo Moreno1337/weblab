@@ -12,6 +12,52 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+.destaque, .profissionalize, .vantagens {
+    background-color: #011e36;
+    padding: 64px 20px 0 20px;
+}
+
+.o-que-fazemos, .como-ajudar, .frase {
+    background-color: #FFFFFF;
+    padding: 64px 20px 0 20px;
+}
+
+.realce {
+    color: #04D282;
+}
+
+.titulo-principal {
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 43px;
+    width: 290px;
+}
+
+.titulo-principal-preto {
+    font-size: 28px;
+    color: #000;
+    font-weight: 700;
+    line-height: 43px;
+    width: 290px;
+}
+
+.linha-divisoria {
+    display: block;
+    height: 5px;
+    width: 100px;
+    background-color: #ffffff;
+    margin-top: 69px;
+}
+
+.linha-divisoria-cinza {
+    display: block;
+    height: 5px;
+    width: 100px;
+    background-color: #8a8a8a;
+    margin-top: 69px;
+}
+
 
 /* SECTION FRASE */
 
@@ -26,3 +72,75 @@ body {
     margin-bottom: 64px;
 }
 
+@media screen and (min-width: 720px) {
+
+    .destaque,
+    .profissionalize,
+    .vantagens,
+    .o-que-fazemos,
+    .como-ajudar,
+    .frase {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .container-master {
+        width: 690px;
+        margin: 0 auto;
+    }
+
+    .titulo-principal {
+        width: 400px;
+    }
+
+    .flex-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mundo-box {
+        margin-bottom: 0;
+    }
+
+    .frase {
+        padding-bottom: 64px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .destaque,
+    .profissionalize,
+    .vantagens,
+    .o-que-fazemos,
+    .como-ajudar,
+    .frase {
+        padding-top: 150px;
+    }
+
+    .container-master {
+        width: 900px;
+    }
+
+    .titulo-principal, .titulo-principal-preto {
+        width: 460px;
+        font-size: 34px;
+    }
+
+    .linha-divisoria, .linha-divisoria-cinza {
+        margin-top: 150px;
+        width: 150px;
+    }
+
+    .frase {
+        padding-bottom: 150px;
+    }
+
+    .frase-autor {
+        font-size: 20px;
+        text-align: end;
+        width: 440px;
+        margin-top: 30px;
+    }
+}

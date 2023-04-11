@@ -16,6 +16,10 @@
     border: none;
 }
 
+.cabecalho-menu:hover {
+    cursor: pointer;
+}
+
 .logo-header {
     width: 129px;
     height: 64px;
@@ -52,14 +56,19 @@
     width: 70px;
     margin-bottom: 30px;
 }
+
 .menu-lateral-link {
     margin-bottom: 64px;
-    color: #02467e;
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
     margin-left: 15px;
+    transition: 250ms;
+}
+
+.menu-lateral-link:hover {
+    color: #04D282;
 }
 
 .contato-header {
@@ -67,8 +76,25 @@
     background-color: #04D282;
     padding: 10px;
     border-radius: 9px;
+    transition: 250ms;
+}
+
+.contato-header:hover {
+    background-color: #ffffff;
 }
 
 @media screen and (min-width: 1024px) {
 
+    .container-header {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .logo-header {
+        width: 170px;
+    }
+
+    .menu-lateral {
+        width: 40vw;
+    }
 }

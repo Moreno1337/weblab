@@ -45,3 +45,30 @@
         margin-top: 30px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+
+    .vantagens-container {
+        padding-bottom: 150px;
+    }
+
+    .vantagens-item {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .vantagens-item-box {
+        width: 220px;
+        border-right: 2px solid #FFFFFF;
+        padding-right: 30px;
+        justify-content: center;
+    }
+
+    .vantagens-titulo {
+        border-bottom: none;
+    }
+
+    .vantagens-subtitulo {
+        font-size: 16px;
+    }
+}

@@ -18,6 +18,16 @@
     font-family: 'Titillium Web', sans-serif;
     font-weight: 700;
     font-size: 18px;
+    transition: 250ms;
+}
+
+.como-ajudar-botao:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+.como-ajudar-botao:active {
+    transform: scale(0.95);
 }
 
 .como-ajudar-botao::after {
@@ -43,12 +53,23 @@
     width: 180px;
 }
 
+
 @media screen and (min-width: 720px) {
+    
+    .foguete-box, .mundo-box {
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
     .como-ajudar-descricao {
-        padding-left: 30px;
+        font-size: 20px;
+        width: 400px;
+        margin: 64px 0;
     }
     
     .como-ajudar-botao {
-        margin-left: 30px;
+        font-size: 24px;
     }
 }
