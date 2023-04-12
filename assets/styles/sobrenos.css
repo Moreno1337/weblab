@@ -1,0 +1,53 @@
+.sobre-nos-subtitulo {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.sobre-nos-linha {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+}
+
+.sobre-nos-texto {
+    padding-top: 64px;
+    width: 290px;
+}
+
+.sobre-nos-texto:last-child {
+    font-weight: 700;
+    padding-bottom: 64px;
+}
+
+@media screen and (min-width: 720px) {
+
+    .sobre-nos-subtitulo {
+        width: 600px;
+    }
+
+    .sobre-nos-texto {
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .sobre-nos-subtitulo {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .sobre-nos-subtitulo {
+        width: 900px;
+    }
+
+    .sobre-nos-texto {
+        padding-top: 100px;
+        width: 900px;
+        font-size: 18px;
+    }
+
+    .sobre-nos-texto:last-child {
+        padding-bottom: 100px;
+    }
+}

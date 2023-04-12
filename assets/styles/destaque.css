@@ -20,6 +20,8 @@
     margin-top: 27px;
     display: flex;
     align-items: center;
+    text-decoration: none;
+    width: fit-content;
 
     font-family: 'Titillium Web', sans-serif;
     font-weight: 700;

@@ -6,6 +6,7 @@
 @import url('./rodape.css');
 @import url('./cabecalho.css');
 @import url('./animations.css');
+@import url('./sobrenos.css');
 
 body {
     /* font-family: 'Oswald', sans-serif;
@@ -18,7 +19,7 @@ body {
     padding: 64px 20px 0 20px;
 }
 
-.o-que-fazemos, .como-ajudar, .frase {
+.o-que-fazemos, .como-ajudar, .frase, .sobre-nos {
     background-color: #FFFFFF;
     padding: 64px 20px 0 20px;
 }
@@ -80,7 +81,8 @@ body {
     .vantagens,
     .o-que-fazemos,
     .como-ajudar,
-    .frase {
+    .frase,
+    .sobre-nos {
         padding-left: 0;
         padding-right: 0;
     }
@@ -116,7 +118,8 @@ body {
     .vantagens,
     .o-que-fazemos,
     .como-ajudar,
-    .frase {
+    .frase,
+    .sobre-nos {
         padding-top: 150px;
     }
 
