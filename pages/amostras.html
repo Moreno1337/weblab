@@ -25,6 +25,9 @@
                 </label>
                 <ul class="lista-menu">
                     <li class="lista-menu_item">
+                        <a href="../index.html" class="lista-menu_link">Home</a>
+                    </li>
+                    <li class="lista-menu_item">
                         <a href="./sobrenos.html" class="lista-menu_link">Sobre Nós</a>
                     </li>
                     <li class="lista-menu_item">
@@ -38,6 +41,9 @@
             </div>
             <div class="desktop">
                 <ul class="lista-menu-desktop">
+                    <li class="lista-menu_item-desktop">
+                        <a href="../index.html" class="lista-menu_link-desktop">Home</a>
+                    </li>
                     <li class="lista-menu_item-desktop">
                         <a href="./sobrenos.html" class="lista-menu_link-desktop">Sobre Nós</a>
                     </li>
@@ -53,29 +59,44 @@
     </header>
     <main>
         <section class="amostras">
-            <div class="container-principal">
-                <h6>Escolha o melhor tema para sua loja</h2>
-                <p class="realce sub-amostras">Desenvolvemos um layout exclusivo para você</p>
+            <div class="container-master">
+                <h2 class="titulo-principal-preto amostras-titulo">Escolha o melhor tema para sua loja</h2>
+                <h3 class="o-que-fazemos-subtitulo sobre-nos-subtitulo">Desenvolvemos um layout exclusivo para você</h3>
                 <div class="container-amostras">
-                    <div class="box-amostras">
-                        <p class="p-amostras">Amostra 1</p>
-                        <img class="img-amostras" src="../assets/img/Template 01 (TechWise).png">
+                    <div class="amostras-box box-techwise hidden" data-scroll>
+                        <div class="amostras-mascara"></div>
+                        <div class="amostras-box-cont">
+                            <img class="amostras-imagem logo-techwise" src="../assets/img/TechWise-logo.svg" alt="TechWise logo">
+                            <button class="amostras-botao">Veja Mais</button>
+                        </div>
                     </div>
-                    <di class="box-amostras">
-                        <p class="p-amostras">Amostra 2</p>
-                        <img class="img-amostras" src="../assets/img/MOTION MOTORS (2).png">
+                    <div class="amostras-box box-motionmotors hidden" data-scroll>
+                        <div class="amostras-mascara"></div>
+                        <div class="amostras-box-cont">
+                            <img class="amostras-imagem logo-motionmotors" src="../assets/img/MotionMotors-logo.svg" alt="Motion Motors logo">
+                            <button class="amostras-botao">Veja Mais</button>
+                        </div>
                     </div>
-                    <div class="box-amostras box-amostras-retangular">
-                        <p class="p-amostras">Amostra 3</p>
-                        <img class="img-amostras" src="../assets/img/Pizzaria.png">
+                    <div class="amostras-box box-pizzaria hidden" data-scroll>
+                        <div class="amostras-mascara"></div>
+                        <div class="amostras-box-cont">
+                            <img class="amostras-imagem logo-pizzaria" src="../assets/img/Pizzaria-logo.svg" alt="Pizzaria Maria logo">
+                            <button class="amostras-botao">Veja Mais</button>
+                        </div>
                     </div>
-                    <div class="box-amostras">
-                        <p class="p-amostras">Amostra 4</p>
-                        <img class="img-amostras" src="../assets/img/Elite metal (1).png">
+                    <div class="amostras-box box-elitemetal hidden" data-scroll>
+                        <div class="amostras-mascara"></div>
+                        <div class="amostras-box-cont">
+                            <img class="amostras-imagem logo-elitemetal" src="../assets/img/EliteMetal-logo.svg" alt="Elite Metal logo">
+                            <button class="amostras-botao">Veja Mais</button>
+                        </div>
                     </div>
-                    <div class="box-amostras">
-                        <p class="p-amostras">Amostra 5</p>
-                        <img class="img-amostras" src="../assets/img/invok.png">
+                    <div class="amostras-box box-innovatek hidden" data-scroll>
+                        <div class="amostras-mascara"></div>
+                        <div class="amostras-box-cont">
+                            <img class="amostras-imagem logo-innovatek" src="../assets/img/Innovatek-logo.svg" alt="Innovatek logo">
+                            <button class="amostras-botao">Veja Mais</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -89,5 +110,6 @@
         </div>
         <a href="../index.html"><img class="rodape-logo" src="../assets/img/logoweblab-fundoverde.svg" alt="Logo da marca WebLab"></a>
     </footer>
+    <script defer src="../js/index.js"></script>
 </body>
 </html>

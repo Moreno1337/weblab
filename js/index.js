@@ -17,6 +17,8 @@
 //     }
 // });
 
+// ANIMAÇÃO NOS ELEMENTOS DA PÁGINA
+
 const observer = new IntersectionObserver( entries => {
     entries.forEach( entry => {
         if(entry.isIntersecting) {
@@ -29,4 +31,14 @@ const scrollElements = document.querySelectorAll('[data-scroll]')
 
 scrollElements.forEach( element => observer.observe(element));
 
-console.log(scrollElements);
+// SOMBRA NO CABEÇALHO QUANDO SCROLLAR A PÁGINA
+
+const cabecalho = document.querySelector('.cabecalho');
+
+window.onscroll = () => {
+    if(window.scrollY >= 50 || window.scrollYOffset >= 50) {
+        cabecalho.classList.add('cabecalho-scroll');
+    } else {
+        cabecalho.classList.remove('cabecalho-scroll');
+    }
+}

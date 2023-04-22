@@ -1,6 +1,7 @@
 .destaque-container {
     display: flex;
     align-items: center;
+    padding-top: 66px;
 }
 
 .destaque-subtitulo {
@@ -85,6 +86,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+
+    .destaque-container {
+        padding-top: 0;
+    }
 
     .destaque-subtitulo {
         width: 500px;

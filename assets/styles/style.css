@@ -20,7 +20,7 @@ body {
     padding: 64px 20px 0 20px;
 }
 
-.o-que-fazemos, .como-ajudar, .frase, .sobre-nos {
+.o-que-fazemos, .como-ajudar, .frase, .sobre-nos, .amostras {
     background-color: #FFFFFF;
     padding: 64px 20px 0 20px;
 }
@@ -83,7 +83,8 @@ body {
     .o-que-fazemos,
     .como-ajudar,
     .frase,
-    .sobre-nos {
+    .sobre-nos,
+    .amostras {
         padding-left: 0;
         padding-right: 0;
     }
@@ -120,7 +121,8 @@ body {
     .o-que-fazemos,
     .como-ajudar,
     .frase,
-    .sobre-nos {
+    .sobre-nos,
+    .amostras {
         padding-top: 150px;
     }
 

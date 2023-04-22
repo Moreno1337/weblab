@@ -1,3 +1,15 @@
+.cabecalho {
+    background-color: #011e36;
+    position: fixed;
+    width: 100vw;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); */
+    z-index: 100;
+    transition: 250ms;
+}
+
+.cabecalho-scroll {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
 
 .cabecalho_menu-hamburguer {
     width: 30px;
@@ -6,14 +18,6 @@
     background-repeat: no-repeat;
     background-position: center;
     display: block;
-}
-
-.cabecalho {
-    background-color: #011e36;
-    position: fixed;
-    width: 100vw;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    z-index: 100;
 }
 
 .cabecalho-container {
@@ -64,7 +68,7 @@
     text-decoration: none;
     color: #fff;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .lista-menu_link:hover {
@@ -148,9 +152,14 @@
         text-transform: uppercase;
         text-decoration: none;
         color: #ffffff;
-        margin-left: 80px;
+        margin-left: 50px;
         font-weight: 600;
-        font-size: 18px;
+        font-size: 16px;
+        transition: 250ms;
+    }
+
+    .lista-menu_link-desktop:hover {
+        color: #04D282;
     }
 
 }
