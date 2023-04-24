@@ -4,30 +4,32 @@
 
 .amostras-box {
     width: 100%;
-    height: 200px;
+    height: 300px;
     border: 2px solid #000;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
+    overflow-y: scroll;
+    transform: translateZ(0);
 }
 
 .box-techwise {
-    background: url("../img/Techwise-template.png") center / 300px 300px;
+    background: url("../img/Techwise-template.png") center / cover;
 }
 
 .box-motionmotors {
-    background: url("../img/MotionMotors-template.png") center / 300px 300px;
+    background: url("../img/MotionMotors-template.png") center / cover;
 }
 
 .box-pizzaria {
-    background: url("../img/Pizzaria-template.png") center / 500px 300px;
+    background: url("../img/Pizzaria-template.png") center / cover;
 }
 
 .box-elitemetal {
-    background: url("../img/EliteMetal-template.png") center / 325px 325px;
+    background: url("../img/EliteMetal-template.png") center / cover;
 }
 
 .box-innovatek {
-    background: url("../img/Innovatek-template.png") center / 350px 350px;
+    background: url("../img/Innovatek-template.png") center / cover;
 }
 
 .amostras-mascara {
@@ -37,6 +39,38 @@
     width: 100%;
     opacity: .6;
     z-index: 0;
+}
+
+.amostras-template {
+    width: 100%;
+    min-height: 100%;
+    height: max-content;
+}
+
+.amostras-botao-voltar {
+    border: none;
+    background: #000;
+    padding: 3px;
+    transition: 250ms;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+
+.amostras-botao-img {
+    transform: rotate(180deg);
+    width: 20px;
+}
+
+.amostras-botao-voltar:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.template-hidden {
+    display: none;
 }
 
 .amostras-box-cont {
@@ -55,23 +89,23 @@
 }
 
 .logo-techwise {
-    width: 120px;
+    width: 180px;
 }
 
 .logo-motionmotors {
-    width: 70px;
+    width: 100px;
 }
 
 .logo-pizzaria {
-    width: 110px;
+    width: 140px;
 }
 
 .logo-elitemetal {
-    width: 75px;
+    width: 115px;
 }
 
 .logo-innovatek {
-    width: 90px;
+    width: 130px;
 }
 
 .amostras-botao {
@@ -81,7 +115,7 @@
     text-transform: uppercase;
     color: #FFF;
     font-family: 'Titillium Web', sans-serif;
-    padding: 3px 10px;
+    padding: 5px 15px;
     font-size: 12px;
     font-weight: 700;
     width: 100px;
@@ -90,13 +124,96 @@
 
 .amostras-botao:hover {
     cursor: pointer;
-    background-color: #535353;
+    background-color: #ffffff;
+    color: #04d282;
+    border-color: #04d282;
 }
 
 .container-amostras {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (min-width: 720px) {
+    .amostras-box {
+        height: 400px;
+        margin-bottom: 100px;
+    }
+
+    .amostras-imagem {
+        margin-bottom: 45px;
+    }
+
+    .amostras-botao {
+        font-size: 20px;
+        width: 150px;
+    }
+
+    .logo-techwise {
+        width: 230px;
+    }
+    
+    .logo-motionmotors {
+        width: 150px;
+    }
+    
+    .logo-pizzaria {
+        width: 200px;
+    }
+    
+    .logo-elitemetal {
+        width: 140px;
+    }
+    
+    .logo-innovatek {
+        width: 180px;
+    }
+
+    .amostras-botao-img {
+        width: 40px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .amostras-titulo {
+        padding-top: 0;
+    }
+
+    .amostras-box {
+        height: 600px;
+        margin-bottom: 150px;
+    }
+
+    .amostras-imagem {
+        margin-bottom: 80px;
+    }
+
+    .amostras-botao {
+        font-size: 24px;
+        width: 200px;
+    }
+
+    .logo-techwise {
+        width: 280px;
+    }
+    
+    .logo-motionmotors {
+        width: 180px;
+    }
+    
+    .logo-pizzaria {
+        width: 250px;
+    }
+    
+    .logo-elitemetal {
+        width: 180px;
+    }
+    
+    .logo-innovatek {
+        width: 220px;
+    }
 }

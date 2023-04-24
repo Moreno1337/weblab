@@ -42,3 +42,71 @@ window.onscroll = () => {
         cabecalho.classList.remove('cabecalho-scroll');
     }
 }
+
+// FUNCIONALIDADE DO BOTÃO "VEJA MAIS"
+
+const botaoVejaMais = document.querySelectorAll('.amostras-botao');
+
+botaoVejaMais.forEach( botao => {
+    botao.addEventListener('click', () => {
+        if(botao.parentNode.children[0].classList.contains('logo-techwise')) {
+            botao.parentNode.parentNode.children[2].classList.remove('template-hidden');
+            botao.parentNode.parentNode.children[3].classList.remove('template-hidden');
+            botao.parentNode.style.display = 'none';
+            botao.parentNode.parentNode.children[0].style.display = 'none';
+        } else if(botao.parentNode.children[0].classList.contains('logo-motionmotors')) {
+            botao.parentNode.parentNode.children[2].classList.remove('template-hidden');
+            botao.parentNode.parentNode.children[3].classList.remove('template-hidden');
+            botao.parentNode.style.display = 'none';
+            botao.parentNode.parentNode.children[0].style.display = 'none';
+        } else if(botao.parentNode.children[0].classList.contains('logo-pizzaria')) {
+            botao.parentNode.parentNode.children[2].classList.remove('template-hidden');
+            botao.parentNode.parentNode.children[3].classList.remove('template-hidden');
+            botao.parentNode.style.display = 'none';
+            botao.parentNode.parentNode.children[0].style.display = 'none';
+        } else if(botao.parentNode.children[0].classList.contains('logo-elitemetal')) {
+            botao.parentNode.parentNode.children[2].classList.remove('template-hidden');
+            botao.parentNode.parentNode.children[3].classList.remove('template-hidden');
+            botao.parentNode.style.display = 'none';
+            botao.parentNode.parentNode.children[0].style.display = 'none';
+        } else if(botao.parentNode.children[0].classList.contains('logo-innovatek')) {
+            botao.parentNode.parentNode.children[2].classList.remove('template-hidden');
+            botao.parentNode.parentNode.children[3].classList.remove('template-hidden');
+            botao.parentNode.style.display = 'none';
+            botao.parentNode.parentNode.children[0].style.display = 'none';
+        }
+    });
+});
+
+const botaoVejaMaisVoltar = document.querySelectorAll('.amostras-botao-voltar');
+
+botaoVejaMaisVoltar.forEach( botao => {
+    botao.addEventListener('click', () => {
+        if(botao.parentNode.children[1].children[0].classList.contains('logo-techwise')) {
+            botao.parentNode.children[2].classList.add('template-hidden');
+            botao.parentNode.children[3].classList.add('template-hidden');
+            botao.parentNode.children[1].style.display = 'flex';
+            botao.parentNode.children[0].style.display = 'block';
+        } else if(botao.parentNode.children[1].children[0].classList.contains('logo-motionmotors')) {
+            botao.parentNode.children[2].classList.add('template-hidden');
+            botao.parentNode.children[3].classList.add('template-hidden');
+            botao.parentNode.children[1].style.display = 'flex';
+            botao.parentNode.children[0].style.display = 'block';
+        } else if(botao.parentNode.children[1].children[0].classList.contains('logo-pizzaria')) {
+            botao.parentNode.children[2].classList.add('template-hidden');
+            botao.parentNode.children[3].classList.add('template-hidden');
+            botao.parentNode.children[1].style.display = 'flex';
+            botao.parentNode.children[0].style.display = 'block';
+        } else if(botao.parentNode.children[1].children[0].classList.contains('logo-elitemetal')) {
+            botao.parentNode.children[2].classList.add('template-hidden');
+            botao.parentNode.children[3].classList.add('template-hidden');
+            botao.parentNode.children[1].style.display = 'flex';
+            botao.parentNode.children[0].style.display = 'block';
+        } else if(botao.parentNode.children[1].children[0].classList.contains('logo-innovatek')) {
+            botao.parentNode.children[2].classList.add('template-hidden');
+            botao.parentNode.children[3].classList.add('template-hidden');
+            botao.parentNode.children[1].style.display = 'flex';
+            botao.parentNode.children[0].style.display = 'block';
+        }
+    })
+});
