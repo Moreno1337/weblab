@@ -8,8 +8,31 @@
     border: 2px solid #000;
     position: relative;
     margin-bottom: 75px;
-    overflow-y: scroll;
-    transform: translateZ(0);
+}
+
+.amostras-box-scroll-hidden {
+    overflow: hidden;
+}
+
+.amostras-box-scroll {
+    overflow: scroll;
+}
+
+.amostras-box::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.amostras-box::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.amostras-box::-webkit-scrollbar-thumb {
+    background: #04d282;
+}
+
+.amostras-box::-webkit-scrollbar-thumb:hover {
+    background: #03975e;
 }
 
 .box-techwise {
@@ -42,7 +65,7 @@
 }
 
 .amostras-template {
-    width: 100%;
+    width: max-content;
     min-height: 100%;
     height: max-content;
 }

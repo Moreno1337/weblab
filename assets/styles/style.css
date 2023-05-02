@@ -20,7 +20,7 @@ body {
     padding: 64px 20px 0 20px;
 }
 
-.o-que-fazemos, .como-ajudar, .frase, .sobre-nos, .amostras {
+.o-que-fazemos, .como-ajudar, .frase, .sobre-nos, .amostras, .precos {
     background-color: #FFFFFF;
     padding: 64px 20px 0 20px;
 }
@@ -84,7 +84,8 @@ body {
     .como-ajudar,
     .frase,
     .sobre-nos,
-    .amostras {
+    .amostras,
+    .precos {
         padding-left: 0;
         padding-right: 0;
     }
@@ -122,7 +123,8 @@ body {
     .como-ajudar,
     .frase,
     .sobre-nos,
-    .amostras {
+    .amostras,
+    .precos {
         padding-top: 150px;
     }
 

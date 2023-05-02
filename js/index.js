@@ -46,9 +46,15 @@ window.onscroll = () => {
 // FUNCIONALIDADE DO BOTÃO "VEJA MAIS"
 
 const botaoVejaMais = document.querySelectorAll('.amostras-botao');
+const boxDeAmostras = document.querySelectorAll('.amostras-box');
 
 botaoVejaMais.forEach( botao => {
     botao.addEventListener('click', () => {
+        boxDeAmostras.forEach(box => {
+            box.classList.remove('amostras-box-scroll-hidden');
+            box.classList.add('amostras-box-scroll');
+        });
+
         if(botao.parentNode.children[0].classList.contains('logo-techwise')) {
             botao.parentNode.parentNode.children[2].classList.remove('template-hidden');
             botao.parentNode.parentNode.children[3].classList.remove('template-hidden');
@@ -82,6 +88,11 @@ const botaoVejaMaisVoltar = document.querySelectorAll('.amostras-botao-voltar');
 
 botaoVejaMaisVoltar.forEach( botao => {
     botao.addEventListener('click', () => {
+        boxDeAmostras.forEach(box => {
+            box.classList.remove('amostras-box-scroll');
+            box.classList.add('amostras-box-scroll-hidden');
+        });
+
         if(botao.parentNode.children[1].children[0].classList.contains('logo-techwise')) {
             botao.parentNode.children[2].classList.add('template-hidden');
             botao.parentNode.children[3].classList.add('template-hidden');
