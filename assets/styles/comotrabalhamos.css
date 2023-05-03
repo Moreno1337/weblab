@@ -1,14 +1,16 @@
 .formas-como-trabalhamos {
     display: flex;
     flex-direction: column;
+    padding-top: 64px;
+    padding-bottom: 30px;
 }
 
 .circulo {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: #04D282;
 }
@@ -16,18 +18,23 @@
 .circulo p {
     font-weight: 700;
     font-size: 20px;
+    color: #FFF;
 }
 
-.reta {
-    width: 5px;
-    background-color: #04D282;
+.descricao-como-trabalhamos {
+    padding-top: 8px;
+    padding-left: 10px;
 }
 
-.sup-reta {
-    display: flex;
-    justify-content: center;
-    width: 100px;
-    height: 60px;
+.descricao-como-trabalhamos:last-child {
+    line-height: 24px;
+}
+
+.descricao-como-trabalhamos-titulo {
+    font-weight: bold;
+    color: #000;
+    font-size: 20px;
+    padding-bottom: 12px;
 }
 
 .container-como-trabalhamos {
@@ -36,28 +43,108 @@
 
 .box-como-trabalhamos {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    padding-bottom: 24px;
 }
 
 .container-pagamento {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
 .icones-pagamento {
-    width: 200px;
-    height: 100px;
-    margin: 1.5em;
+    margin-bottom: 32px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.icones-pagamento div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones-pagamento-texto {
+    font-weight: 700;
+    margin-top: 16px;
+}
+
 .como-trabalhamos-titulo {
     color: #000;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 16px;
+    line-height: 36px;
+}
+
+@media screen and (min-width: 720px) {
+    .descricao-como-trabalhamos-titulo {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+
+    .descricao-como-trabalhamos {
+        padding-top: 7px;
+    }
+
+    .box-como-trabalhamos {
+        padding-bottom: 40px;
+    }
+
+    .container-pagamento {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+
+    .icones-pagamento {
+        margin-bottom: 0;
+    }
+
+    .como-trabalhamos-titulo {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .formas-como-trabalhamos {
+        padding-bottom: 75px;
+    }
+
+    .circulo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .circulo p {
+        font-size: 28px;
+    }
+
+    .descricao-como-trabalhamos {
+        padding-top: 12px;
+        padding-left: 24px;
+    }
+
+    .descricao-como-trabalhamos-titulo {
+        padding-bottom: 32px;
+    }
+
+    .descricao-como-trabalhamos:last-child {
+        font-size: 20px;
+    }
+
+    .box-como-trabalhamos {
+        padding-top: 50px;
+    }
+
+    .container-pagamento {
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
 }

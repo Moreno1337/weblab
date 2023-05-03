@@ -11,8 +11,6 @@
 @import url('./comotrabalhamos.css');
 
 body {
-    /* font-family: 'Oswald', sans-serif;
-    font-family: 'Tilt Warp', cursive; */
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -21,7 +19,7 @@ body {
     padding: 64px 20px 0 20px;
 }
 
-.o-que-fazemos, .como-ajudar, .frase, .sobre-nos, .amostras, .precos {
+.o-que-fazemos, .como-ajudar, .frase, .sobre-nos, .amostras, .como-trabalhamos {
     background-color: #FFFFFF;
     padding: 64px 20px 0 20px;
 }
@@ -86,7 +84,7 @@ body {
     .frase,
     .sobre-nos,
     .amostras,
-    .precos {
+    .como-trabalhamos {
         padding-left: 0;
         padding-right: 0;
     }
@@ -97,6 +95,10 @@ body {
     }
 
     .titulo-principal {
+        width: 400px;
+    }
+
+    .titulo-principal-preto {
         width: 400px;
     }
 
@@ -125,7 +127,7 @@ body {
     .frase,
     .sobre-nos,
     .amostras,
-    .precos {
+    .como-trabalhamos {
         padding-top: 150px;
     }
 

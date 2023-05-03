@@ -37,6 +37,12 @@
     margin-top: 10px;
 }
 
+@media screen and (min-width: 720px) {
+    .o-que-fazemos-subtitulo {
+        width: 400px;
+    }
+}
+
 @media screen and (min-width: 1024px) {
 
     .o-que-fazemos-container {
